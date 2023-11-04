@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins;wght@200;400&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #ccc;
+	font-family: 'Poppins', sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	overflow: hidden;
+	margin: 0;
+}
+
+.box-container {
+	background-color: #FCF5ED;
+	border-radius: 10px;
+	box-shadow: 0 0 10px 2px rgba(100, 100,100, 0.3);
+	width: 400px;
+	overflow: hidden;
+}
+
+.header-container {
+	background-color: #F4BF96;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+h1 {
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+	text-align: center;
+}
+
+.field-container {
+	font-family: 'Poppins', sans-serif;
+	display: grid;
+	gap: 5px;
+	margin: 20px 40px;
+	align-self: center;
+	justify-self: center;
+}
+
+.checkBox {
+	font-family: 'Poppins', sans-serif;
+	font-size: 12px;
+	display: flex;
+	justify-content: right;
+	margin-right: 40px;
+}
+
+label {
+	font-size: 12px;
+}
+
+input {
+	background-color: #E1E1E1;
+	border: none;
+	border-bottom: 1px solid black;
+	font-family: 'Poppins', sans-serif;
+	font_size: 16px;
+	text-align: left;
+}
+
+input:focus {
+	outline: none;
+}
+
+p {
+	font-family: inherit;
+	font-size: 10px;
+	color: #F93030;
+	text-align: left;
+}
+
+.btn {
+	cursor: pointer;
+	font-size: 12px;
+	font-family: inherit; 
+	width: auto;
+	padding: 8px 50px;
+	border: 1px solid #ccc;
+}
+
+.btn2 {
+	cursor: pointer;
+	font-size: 10px;
+	font-family: inherit; 
+	width: auto;
+	border: 1px solid #ccc;
+}
+
+#forgot {
+	color: #ccc;
+	padding: 8px 20px;
+}
+
+#signup {
+	color: #ccc;
+	padding: 8px 50px;
+}
+
+#cancel {
+	background-color: #FCF5ED;
+}
+
+#login {
+	background-color: #F4BF96;
+}
+
+button:hover {
+	opacity: 70%; 
+}
+
+.button-container, .button-container2 {
+	display: flex;
+	justify-content: space-around;
+	margin: 20px;
+}
+
+hr {
+	margin: 10px 40px;
+
+}
