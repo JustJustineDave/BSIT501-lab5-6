@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title> User Login</title>
+        <link rel="stylesheet" href="Lab5ramirez.css">
+        <script src="Lab5Ramirez.js"></script>
+    </head>
+    <body>
+        <div class="information-container" id="save">
+            <div class="header">
+                <h2>USER LOGIN</h2>
+            </div>
+                <form name="Form1" method="post" onsubmit="return CheckForm(document.Form1)">
+                    <fieldset>
+                        <div class="username">
+                            <label for ="input-user" >EMAIL:</label><br>
+                                <input type="email" id="email" placeholder="Pogiako69@gmail.com" />
+                        </div>
+                            <div class="password">
+                                    <label for ="input-pass">PASSWORD:</label><br>
+                                    <input type="password" id="password" placeholder="The password must be 8 characters long"/>
+                            </div>
+                                <div class="buttons">
+                                        <button type="reset" id="cancel" >CANCEL</button>
+                                         <button type="submit" id="submit" >LOGIN</button>
+                                 </div>
+                    </fieldset>
+                </form>
+                     
+        </div>
+    </body>
+</html>
