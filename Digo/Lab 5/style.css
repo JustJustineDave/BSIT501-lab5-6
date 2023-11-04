@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+body{
+	background-color: lightgray;
+	font-family: poppins;
+}
+.box-container{
+	height: 500px;
+  height: 500px;
+  display: flex	;
+  align-items: center;
+  justify-content: center;
+   position: relative;
+  
+}
+.main-box{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	right: 50%;
+	
+}
+.head{
+	background-color: lightblue;
+	text-align: center;
+	justify-content: center;
+	width: 400px;
+	height: 50px;
+}
+h1{
+	text-align: center;
+	font-size: 20px;
+}
+.input-container{
+	display: grid;
+	background-color: white;
+	justify-content: center;
+	width: 400px;
+	box-shadow: 5px 5px 5px   black;
+}	
+.container{
+	display: grid;
+	margin: 50px;
+	padding-top: 5px;
+	padding: 3px;
+	font-family: poppins;
+	grid-row-gap: 20px;
+}
+#Userbox, #passbox{
+	background-color: lightgray;
+	border-top: 2px;
+	border-left: none;
+	border-right: none;
+	height: 29px;
+}
+.btn-container{
+	display: flex;
+	justify-content: space-between;
+	margin-left: 30px;
+	margin-right: 30px
+}
+.btn1{
+	width: 100px;
+	height: 30px;
+}
+.btn2{
+	width: 100px;
+	height: 30px;
+	background-color: lightblue;
+}
+.btn2:active{
+	background-color: lightgray;
+	color: gray;
+}
+#error{
+	color: red;
+	font-size: 10px;
+}
+

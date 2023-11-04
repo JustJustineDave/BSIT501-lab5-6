@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="indexl.css" />
+</head>
+<body>
+
+<div class="container">
+  <form id="sizeForm">
+    <h2>ARRAY SORTER</h2>
+    <label for="arraySize">Enter the size of the array:</label>
+    <input type="number" id="arraySize" name="arraySize" required><br><br>
+  </form>
+
+  <div id="inputBoxes" class="input-boxes"></div>
+
+  <form onsubmit="sortNumbers()">
+    <div id="result" class="result"></div><br>
+    <button type="submit" class="sort-btn">Sort</button>
+  </form>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

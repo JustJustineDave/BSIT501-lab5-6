@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+body{
+	background-color: gray;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	
+}
+.main-container{
+	height: 500px;
+  height: 500px;
+  display: grid	;
+  align-items: center;
+  justify-content: center;
+   position: relative;
+	
+	
+}
+.mainbox{
+	display: grid;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	right: 50%;
+}
+.head{
+	text-align: center;
+	background-color: lightblue;
+	font-size: 20px;
+}
+.sort-container{
+	text-align: center;
+	padding-top: 20px;
+	background-color: white;
+}
+#sortbox{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	display: grid;
+	grid-template-columns: auto auto auto auto auto;
+	align-items: center;
+	justify-content: center;
+	column-gap: 5px;
+	row-gap: 5px;
+	background-color: white;
+}
+#size{
+	width: 150px;
+	border: none;
+	border-bottom: 2px solid black;
+	background-color: lightgray;
+}
+input{
+	width: 50px;
+	border: 1px solid black;
+	background-color: white;
+}
+.btn-container{
+	padding-top: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: white;
+}
+#btn{
+	width: 400px;
+	height: 30px;
+}
+p{
+	text-align: center;
+	margin:0px 0px 0px 2px;
+	background-color: white;
+}
