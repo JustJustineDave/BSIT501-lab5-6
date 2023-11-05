@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis/css2?family=poppins;wght@200;400&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+h3 {
+	text-align: center;
+	background-color: lightblue;
+	margin: 0px;
+	margin-bottom: 15px;
+	padding-top: 20px;
+	padding-bottom: 0;
+}	
+
+body {
+	background-color: gray;
+	font-family: 'poppins', sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	overflow: hidden;
+	margin: 0;
+}
+
+.login-body-container {
+	align-self:  center;
+	margin-left: 50px;
+}
+
+.login-container {
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 0 0 10px 10px rgba(100, 100, 100, 0.1);
+	width: 450px;
+	overflow: hidden;
+	display: grid;
+	align-self: center;
+	height: 250px;
+}
+
+.buttons-container {
+	display: flex;
+	justify-content: space-between;
+	margin-right: 50px;
+	margin-left: 50px;
+	margin-bottom: 0px;
+	margin-top: 10px;
+}
+
+#right {
+	background-color: lightblue;
+	border: solid 1px black;
+	width: 150px;
+	height: 30px;
+}
+
+#right:hover {
+	opacity: 0.9;
+	color: white;
+}
+
+#left:hover {
+	opacity: 0.9;
+	color: white;
+}
+
+#left {
+	border: solid 1px black;
+	width: 150px;
+	height: 30px;
+}
+
+#username {
+	background-color: lightgray;
+	border: none;
+	border-bottom: 1px solid black;
+	font-family: 'poppins', sans-serif;
+	text-align: start;
+	margin: 0;
+	margin-left: 10px;
+	margin-top: 3px;
+	padding-right: 150px;
+}
+
+#password {
+	background-color: lightgray;
+	border: none;
+	border-bottom: 1px solid black;
+	font-family: 'poppins', sans-serif;
+	text-align: start;
+	margin: 0;
+	margin-left: 10px;
+	margin-top: 3px;
+	padding-right: 150px;
+}
+
+#input:focus {
+		outline: none;
+}
+
+label {
+	align-self: center;
+	margin-left: 10px;
+}

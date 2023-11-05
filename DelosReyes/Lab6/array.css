@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis/css2?family=poppins;wght@200;400&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+h3 {
+	text-align: center;
+	background-color: lightblue;
+	margin: 0;
+	height: 50px;
+	padding-top: 15px;
+}	
+
+body {
+	background-color: gray;
+	font-family: 'poppins', sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	overflow: hidden;
+	margin: 0;
+}
+
+.array-body-container {
+	align-self:  center;
+	margin-left: 50px;
+}
+
+.array-container {
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 0 0 10px 10px rgba(100, 100, 100, 0.1);
+	width: 450px;
+	overflow: hidden;
+	display: grid;
+	align-self: center;
+	height: 200px;
+}
+
+#array-size {
+	background-color: lightgray;
+	border: none;
+	border-bottom: 1px solid black;
+	font-family: 'poppins', sans-serif;
+	text-align: center;
+	margin: 0;
+}
+
+
+input {
+	text-align: center;
+	width: 30px;
+	height: 20px
+}
+
+
+.button {
+	align-self: center;
+	margin-right: 100px;
+	margin-left: 50px;
+	margin-bottom: 0px;
+	margin-top: 10px;
+}
+
+#sort {
+	border: solid 1px black;
+	width: 250px;
+	height: 30px;
+}
+
+#sort:hover {
+	opacity: 0.9;
+	color: white;
+}
+
+#input:focus {
+		outline: none;
+}
+
+label {
+	align-self: center;
+	margin-left: 10px;
+}
+
